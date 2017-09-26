@@ -6,7 +6,13 @@ def repeat(string, num):
 
     Returnerar en ny sträng eller en tom sträng om num är negativt.
     """
+<<<<<<< Updated upstream
     return string * num
+
+=======
+    return "hejhej"
+    pass
+>>>>>>> Stashed changes
 
 
 def bouncer(items):
@@ -27,7 +33,13 @@ def rovarsprak(string):
 
 def area(width, height):
     """Returnerar arean av en figur med bredden 'width' och höjden 'height'."""
-    pass
+    return width * height
+    # if __name__ == '__main__':
+    #     width = input('Mata in värde för bredden: ')
+    #     height = input('Mata in värde för höjden: ')
+    #
+    # resultat = area(int(width), int(height))
+    # print('Arean = ' + str(resultat))
 
 
 def to_seconds(time):
@@ -37,12 +49,17 @@ def to_seconds(time):
 
 def is_of_age(age):
     """Returnerar true om 'age' är större eller lika med 18, annars false."""
-    pass
+    if age >= 18:
+        return True
+    else:
+        return False
 
 
 def vowel(character):
     """Returnerar true om 'character' är en vokal, annart false."""
-    pass
+    if character.lower() in "aouieyåäö":
+        return True
+    return False
 
 
 def reverse(words):
@@ -51,7 +68,7 @@ def reverse(words):
     words = "Hej på dig!" ska till exempel returnera
     strängen "!gid åp jeH".
     """
-    pass
+    if hej return jeh 
 
 
 def overlapping(list1, list2):

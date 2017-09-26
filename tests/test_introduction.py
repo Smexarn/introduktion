@@ -1,7 +1,6 @@
 import pytest
 from exercises.introduction import area, bouncer, character_frequency, is_of_age, overlapping, repeat, reverse, rovarsprak, to_seconds, travel_price, vowel
 
-
 @pytest.mark.skip('Not implemented yet.')
 def test_repeat():
     assert repeat("hej", 2) == "hejhej"
@@ -24,7 +23,6 @@ def test_rovarsprak():
     assert rovarsprak("TE13 är bäst.") == "TOTE13 äror bobäsostot."
 
 
-@pytest.mark.skip('Not implemented yet.')
 def test_area():
     assert area(20, 20) == 400
     assert area(23.5, 24.0) == 564
@@ -36,7 +34,7 @@ def test_to_seconds():
     assert to_seconds(1.8) == 6480
 
 
-@pytest.mark.skip('Not implemented yet.')
+
 def test_is_of_age():
     assert is_of_age(12) == False
     assert is_of_age(20) == True
@@ -52,11 +50,11 @@ def test_vowel(character, expected):
     assert vowel(character) == expected
 
 
-@pytest.mark.skip('Not implemented yet.')
+
 def test_reverse():
     assert reverse('Test string') == 'gnirts tseT'
     assert reverse('Hello') == 'olleH'
-    assert reverse('a') == 'a'
+    assert reverse('a') == 'a'  
 
 
 @pytest.mark.skip('Not implemented yet.')
