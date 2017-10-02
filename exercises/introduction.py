@@ -6,18 +6,16 @@ def repeat(string, num):
 
     Returnerar en ny sträng eller en tom sträng om num är negativt.
     """
-<<<<<<< Updated upstream
     return string * num
-
-=======
-    return "hejhej"
-    pass
->>>>>>> Stashed changes
 
 
 def bouncer(items):
     """Tar bort alla värden i items (arg 1) som evalueras till False."""
-    pass
+    result = []
+    for item in items:
+        if item:
+            result.append(item)
+    return result
 
 
 def rovarsprak(string):
@@ -68,7 +66,7 @@ def reverse(words):
     words = "Hej på dig!" ska till exempel returnera
     strängen "!gid åp jeH".
     """
-    if hej return jeh 
+    return (words[::-1])
 
 
 def overlapping(list1, list2):
